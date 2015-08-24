@@ -10,8 +10,8 @@
   # Set the OAuth2 client id and secret. Register your application here to
   # obtain these values:
   #   https://code.google.com/apis/console#access
-  :oauth2_client_id: INSERT_OAUTH2_CLIENT_ID_HERE
-  :oauth2_client_secret: INSERT_OAUTH2_CLIENT_SECRET_HERE
+  :oauth2_client_id: 810639269306-rpqo53o4vo88c9avmtlgo83603djorpg.apps.googleusercontent.com
+  :oauth2_client_secret: NMgOG6yxZDxkwfu4wErPS06W
   # Optional, see: https://developers.google.com/accounts/docs/OAuth2WebServer
   #:oauth2_callback: INSERT_OAUTH2_CALLBACK_URL_HERE
   #:oauth2_state: INSERT_OAUTH2_STATE_HERE
@@ -29,9 +29,10 @@
   #:oauth2_prn: INSERT_OAUTH2_PRN_HERE
 
   # Other parameters.
-  :developer_token: INSERT_YOUR_DEVELOPER_TOKEN_HERE
-  :client_customer_id: INSERT_YOUR_CLIENT_CUSTOMER_ID_HERE
-  :user_agent: INSERT_YOUR_USER_AGENT_HERE
+  :developer_token: n7FHmwSHwj2A0NpcaD3Nhw
+  :client_customer_id: 376-316-3506
+  :user_agent: Testing Project 3
+  # :user_agent: Folksy Limited
 :service:
   # Only production environment is available now, see: http://goo.gl/Plu3o
   :environment: PRODUCTION
@@ -43,8 +44,9 @@
   # :proxy: INSERT_PROXY_HERE
 :library:
   # Optional: set the log level.
-  :log_level: INFO
+  :log_level: DEBUG
   # Optional: uncomment to skip header / summary rows in reporting.
   #:skip_report_header: true
   #:skip_report_summary: true
   #:skip_column_header: true
+refresh_token: 4/tPWIINHfsDFT0tYJkSKvrFyui1BAzu8yYwWWxZxwHhc
