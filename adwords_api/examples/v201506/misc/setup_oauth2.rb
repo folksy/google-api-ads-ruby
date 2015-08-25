@@ -27,14 +27,7 @@ require 'adwords_api'
 def setup_oauth2()
   # AdwordsApi::Api will read a config file from ENV['HOME']/adwords_api.yml
   # when called without parameters.
-  config_filename = File.join(
-    File.dirname( __FILE__ ),
-    "..",
-    "..",
-    "..",
-    "adwords_api.yml"
-  )
-  adwords = AdwordsApi::Api.new( config_filename )
+  adwords = AdwordsApi::Api.new
 
   # To enable logging of SOAP requests, set the log_level value to 'DEBUG' in
   # the configuration file or provide your own logger:
@@ -56,7 +49,7 @@ def setup_oauth2()
     response = gets.chomp
     if ('y'.casecmp(response) == 0) or ('yes'.casecmp(response) == 0)
       adwords.save_oauth2_token( token )
-      puts 'OAuth2 token is now saved to #{ config_filename } and will be ' +
+      puts 'OAuth2 token is now saved to ~/adwords_api.yml and will be ' +
           'automatically used by the library.'
     end
   end

@@ -30,9 +30,8 @@
 
   # Other parameters.
   :developer_token: n7FHmwSHwj2A0NpcaD3Nhw
-  :client_customer_id: 376-316-3506
+  :client_customer_id: 136-250-0885
   :user_agent: Testing Project 3
-  # :user_agent: Folksy Limited
 :service:
   # Only production environment is available now, see: http://goo.gl/Plu3o
   :environment: PRODUCTION
@@ -49,4 +48,3 @@
   #:skip_report_header: true
   #:skip_report_summary: true
   #:skip_column_header: true
-refresh_token: 4/izW2-yUSbQVuVWISSlUT4WjmRtVS1CrNoGreKYtbvKA
