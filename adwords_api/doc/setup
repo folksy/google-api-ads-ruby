@@ -1,5 +1,5 @@
 For the adwords_api.yml file:
   oauth2_client_id: testing-apps@folksy.co.uk (Cloud Console)
   oauth2_client_secret: testing-apps@folksy.co.uk (Cloud Console)
-  client_customer_id: testing-apps@folksy.co.uk
+  client_customer_id: Folksy Testing Apps Adwords Account ID
   user_agent: testing-apps@folksy.co.uk (Cloud Console)
