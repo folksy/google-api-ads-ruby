@@ -115,7 +115,7 @@ if __FILE__ == $0
 
   begin
     # Campaign ID to add ad group to.
-    campaign_id = 'INSERT_CAMPAIGN_ID_HERE'.to_i
+    campaign_id = 320481666
     add_ad_groups(campaign_id)
 
   # Authorization error.
